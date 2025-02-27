@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-image: url(./img/Neon-Genesis-Evangelion-Ikari-Shinji-Ayanami-Rei-sunset-city-skyline-2308262-wallhere.com.jpg);
+  background-size: 100%;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #ff2e5b;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(205, 2, 2, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #f4f4f4;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.gender {
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.gender input[type="radio"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  border-radius: 40%;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gender input[type="radio"]:checked {
+  background-color: #ff9165;
+  border: 2px solid rgb(255, 102, 20);
+  box-shadow: 0 0 0 2px #ffffff;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="radio"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border: 1px solid #ff1a1e;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.remember input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: translate(10%, 40%);
+}
+.remember input[type="checkbox"]:checked {
+  background-color: #ff7e43;
+  border-color: #ffd9ce;
+}
+
+button {
+  background-color: #a90011;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #eb0505;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.forgot-password a {
+  color: #ffffff;
+  text-decoration: none;
+}

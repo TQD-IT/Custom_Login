@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form action="/submit" method="post">
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <div class="gender">
+        <label for="gender">Gender</label><br />
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label><br />
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </div>
+      <div class="remember">
+        <label for="remember">
+          <input type="checkbox" id="remember" name="remember" />
+          remember </label
+        ><br /><br />
+      </div>
+      <button type="submit">Sign in</button>
+      <div class="forgot-password">
+        <a href="#">Forgot Password ?</a>
+      </div>
+    </form>
+  </div>
+</html>
